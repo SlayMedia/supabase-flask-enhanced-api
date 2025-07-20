@@ -1,0 +1,15 @@
+{
+  "auth_key": "your_secure_auth_key_here",
+  "job_timeout_seconds": 3600,
+  "cleanup_older_than_days": 7,
+  "max_concurrent_jobs": 5,
+  "log_level": "INFO",
+  "port": 5000,
+  "host": "0.0.0.0",
+  "csv_find_max_retries": 30,
+  "csv_find_retry_delay_secs": 2,
+  "telemetry_chunk_size": 1000,
+  "enable_telemetry_processing": true,
+  "supabase_batch_size": 500,
+  "supabase_max_retries": 3
+}
